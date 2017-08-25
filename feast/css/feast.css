@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*parallax*/
+ 
+
+
+/*@media (min-width:768px){
+
+		
+		.jumbotron{
+		  	background-image: url(../images/mainlg.jpg);
+			background-size: contain;
+			background-repeat: no-repeat;
+			background-position: right top; 
+		 	background-color:#eff0f4;
+			
+		}
+			
+		#jumb{
+				background-color:#eff0f4;
+				height: 80vh;
+				width: auto;
+			} 
+		
+		#info{
+			display:none;
+			}
+
+		#large{
+			font-family: 'Kaushan Script', cursive;
+			margin: -15px 0 0 0px;
+			font-size: 7em;
+		}
+
+	
+		#sm{
+			display:none;
+			}
+		
+		#lg{
+			display:block;
+			font-size:3em;
+			margin: -13px 0 0 14%;
+			font-family: 'Poppins', sans-serif;
+			font-weight: bold;
+		}
+		
+		.btn{
+			float: left;
+			}
+		
+		#mainbtn{
+			margin-top: 150px;
+			margin-left: 13%;
+			font-size: 1.1em;
+		}
+		
+		#info2{
+			font-size: 1.75em;
+			clear: both;
+			float: left;
+			margin-top: 2%;
+			margin-left: 1%;
+			font-weight: bold;
+			
+		}
+		#info3{
+			font-size: 1.75em;
+			clear: both;
+			float: left;
+			margin-top: -2.1%;
+			margin-left: 1%;
+			font-weight: bold;
+		}
+	
+
+		h2{
+			font-size:3em;
+			text-align: center;
+			
+			}
+	.navbar{
+	height: 75px;
+
+}
+
+
+img[src="../images/feastlogo.png"]{
+	position:relative;
+	float: left;
+	margin-left: -5px;
+	}
+
+}
+
+
+#menub{
+	background-color:transparent;
+	margin-left: 50px;
+	font-size: 1.2em;
+	
+}
+
+#menub a{
+	margin-left: 5px;
+	color: #464646;
+	text-decoration: none;
+	border-bottom: none;
+	
+	
+}
+
+#menub a:hover{
+	color: #9c2c6b;
+	text-decoration: none;
+}
+
+#shopping{
+	
+}
+}
+*/
+

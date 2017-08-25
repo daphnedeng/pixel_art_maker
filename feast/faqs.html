@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Feast</title>
+
+    <!-- Bootstrap -->
+
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Poppins:400,600" rel="stylesheet">
+    <!--<link rel="stylesheet" type="text/css" href="css/feast.css" media="screen and (min-width:768px)">-->
+     <link href="css/bootstrap.min.css" rel="stylesheet">
+     
+
+<style>
+	body {font-family: 'Poppins', sans-serif;
+		min-width:375px;
+
+}
+
+/*MOBILE NAVIGATION BEGINS*/
+.navbar{
+	height: 75px;
+	
+}
+
+	.navbar-toggle:hover{
+		background-color: white;
+	}
+
+img[src="../images/feastlogo.png"]{
+position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 107px;
+   height: 50px;
+   margin-top: -25px; /* Half the height */
+   margin-left: -53.5px; /* Half the width */
+}
+
+.navbar-brand{
+	font-family: 'Kaushan Script', cursive;
+	text-align: center;
+	/*font-size: 2em;*/
+}
+
+.navbar-toggle{
+		margin-left: 15px;
+		margin-top: 21px;
+	}
+
+#ham{
+	margin: 20px 0 10px 10px;
+}
+
+#menub{
+	background-color:#464646;
+	text-align: center;
+}
+
+#menub a{
+	color: white;
+	border-bottom: solid 1px white;
+}
+
+#menub a:hover{
+	color: #32987C;
+	text-decoration: none;
+}
+.navbar-header li{
+	list-style-type:none
+	}
+.glyphicon-shopping-cart{
+	list-style-type:none;
+	float: right;
+	margin-top: 20px;
+	margin-right: 10px;
+	font-size: 35px;
+	/*display:block;*/
+}
+#shopping2{
+	display: none;
+}
+	
+	span.cart_color
+	{
+		color:#048361;
+	}
+
+/*MOBILE NAVIGATION ENDS*/	
+
+	
+	
+/*MOBILE FOOTER BEGINS*/
+footer{
+	background-color: #eff0f4;
+	font-size: 1.75em;
+	color:#464646;
+	
+}
+
+footer a{
+	text-decoration: none;
+	color:#464646;
+}
+
+footer a:hover{
+	color: #32987C;
+	text-decoration: none;
+}
+
+#logo{
+	font-family: 'Kaushan Script', cursive;
+	font-size: 2.25em;
+	color:#464646;
+	margin-bottom: 13px;
+	margin-top: 20px;
+	
+}
+
+.foot{
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+
+#logo2, #about2, #contact2, #faqs2{
+		display:none;
+	}
+/*MOBILE FOOTER ENDS*/
+
+/*BANNER BEGINS*/
+	.responsive{
+		max-width: 100%;
+		height: auto;}
+	
+	.background{
+		background-image: url(../images/salmon.jpg);
+		background-size:cover;
+		background-repeat: no-repeat;
+		background-color:white;
+		background-position: center;}	
+	}
+	
+/*BANNER END*/	
+
+/*LABEL BEGINS*/
+	
+	.labelfaqs{
+		background-color: #eff0f4;
+		text-align:center;
+		font-size: 3em;
+		font-weight: bold;
+		padding: 5px 5px;
+	}
+	
+	h1{
+		font-size: 3em;
+		font-weight: bold;
+		text-align:left;
+		background-color: #eff0f4;
+		padding: 20px;
+		margin-top: -20px;
+		margin-bottom: -5px;
+		color:#424242;
+	}
+	
+/*LABEL ENDS*/
+
+/*FAQs BEGIN*/
+	h2{
+		text-align: center;
+	}
+	#faqs3{
+		margin-top: 30%;
+		background-color: rgba(255, 255, 255, 0.6);
+	}
+	
+	.panel-title{
+		font-size: 1.2em;
+		font-weight: bold;
+	}
+	
+	.glyphicon-chevron-down{
+		float:right;
+	}
+
+	
+	
+@media (min-width:768px){
+
+	
+/*LARGE DISPLAY NAVIGATION BEGINS*/		
+	.navbar{
+	height: 75px;
+	
+	}
+	
+
+#menub{
+	background-color:transparent;
+	margin-top: 10px;
+	margin-left: 50px;
+	font-size: 1.5em;
+	
+}
+
+#menub a{
+	margin-left: 5px;
+	color: #464646;
+	text-decoration: none;
+	border-bottom: none;
+	
+	
+}
+
+#menub a:hover{
+	color: #424242;
+	text-decoration: underline;
+}
+
+img[src="../images/feastlogo.png"]{
+	position:relative;
+	float: left;
+	margin-left: -4px;
+	margin-top: -18px;
+	
+	
+	}
+	
+#shop{
+	display: none;
+}
+#shopping2{
+	display:block;
+	float: right;
+	margin-top: 18px;
+	margin-right: 10px;
+	
+	}
+	#current{
+		text-decoration: underline;
+	}
+/*LARGE DISPLAY NAVIGATION ENDS*/	
+	
+/*LARGE DISPLAY FOOTER BEGINS*/	
+	#footer1{
+		
+		background-color: #eff0f4;
+		height: 5px;
+		
+	}
+	#logo2{
+		display:block;
+		font-family: 'Kaushan Script', cursive;
+		margin-left: 2%;
+		font-size: 2em;
+		width: 150px;
+		margin-top: 5px;
+		
+	}
+	
+	#about2{
+	display:block;
+		
+	}
+	#faqs2{
+		display:block;
+		margin-left: 10px;
+	}
+	#contact2{
+		margin-left: 5px;
+		display:block;
+	}
+	.col-sm-1{
+		margin-top: 26px;
+	}
+	
+	
+	#logo, #about, #contact, #faqs{
+		display:none;
+	}
+	
+/*LARGE DISPLAY FOOTER ENDS*/	
+
+/*DESKTOP LABEL*/
+	.labelfaqs{
+		background-color: #eff0f4;
+		text-align:center;
+		font-size: 2.25em;
+		font-weight: bold;
+	}
+	h1{
+		font-size:2.25em;
+		text-align: center;
+		padding: 5px;
+	}
+
+/*FAQs BEGINS*/
+	
+	.panel-default{
+		width: 70%;
+		margin-left:15%;
+	
+	}
+	
+	#faqs3{
+		margin-top: 15%;
+	}
+	
+	.panel-title{
+		font-size: 1.5em;
+		font-weight: bold;
+	}
+	
+	.panel-body{
+		font-size: 1.25em;
+		text-align: left;
+	}
+
+	
+/*FAQs ENDS*/	
+	
+	
+}
+
+
+</style>	
+  </head>
+  <body>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#defaultNavbar1" aria-expanded="false" ><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+        <a class="navbar-brand" href="index.html">
+        <img src="../images/feastlogo.png" width="107" height="50" alt="logo"/></a>
+        <ul>
+			<li><a href="cart.html"><span class="glyphicon glyphicon-shopping-cart cart_color" id="shop"></span></a></li>
+        </ul>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="defaultNavbar1">
+        <ul class="nav navbar-nav" id="menub">
+          <li><a href="sides.html">MENU<span class="sr-only">(current)</span></a></li>
+          <li><a href="pricing.html">PRICING</a></li>
+			<li><a href="kitchenware.html">KITCHENWARE<span class="sr-only"></span></a></li>
+        </ul>
+		  <a href="cart.html"><span class="glyphicon glyphicon-shopping-cart cart_color" id="shopping2"></span></a>     
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+  <script src="../js/jquery-1.11.3.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+<div class="labelfaqs"><h1>FAQs</h1></div>
+<!-- <div class="container-fluid">
+  <div class="row">
+  	  <div class="col-xs-12"><h1>FAQs</h1></div>
+    </div>
+  </div>-->
+  
+  <div class="container-fluid background">
+    <div class="row">
+      <div class="col-xs-12" id="faqs3">
+      <h2>Answers to common questions:</h2>	
+      <div class="panel-group" id="accordion1" role="tablist" aria-multiselectable="true">
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab">
+            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion1" href="#collapseOne1">What is your delivery proccess?<span class="glyphicon glyphicon-chevron-down"></span></a></h4>
+          </div>
+          <div id="collapseOne1" class="panel-collapse collapse in">
+            <div class="panel-body">Menus are posted weekly. Customers may order food from the menu for delivery within that week. You will designate the delivery date on the order page. For same day delivery, orders must be placed by 11am for delivery by 5pm. Shipping is included in the price.</div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion1" href="#collapseTwo1">Where do your ingredients come from?<span class="glyphicon glyphicon-chevron-down"></span></a></h4>
+          </div>
+          <div id="collapseTwo1" class="panel-collapse collapse">
+            <div class="panel-body">All ingredients are organic and produced is sourced from local farms within 50 miles.</div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion1" href="#collapseThree1">Do you require a membership?<span class="glyphicon glyphicon-chevron-down"></span></a></h4>
+          </div>
+          <div id="collapseThree1" class="panel-collapse collapse">
+            <div class="panel-body">No membership is required, but our membership package is the most economical for those who eat with us regularly since it offers a 20% discount on all food and kitchenware.<br><br>
+            
+            We understand that some of our customers need flexibility. Thus, our customers are welcome to skip the membership and purchase the quantity they want when it best fits their schedule.</div>
+          </div>
+        </div>
+                <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion1" href="#collapseFour1">Do you offer vegetarian meals?<span class="glyphicon glyphicon-chevron-down"></span></a></h4>
+          </div>
+          <div id="collapseFour1" class="panel-collapse collapse">
+            <div class="panel-body">Yes, at least one meal per week will be vegetarian.</div>
+          </div>
+        </div>
+                <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion1" href="#collapseFive1">Are there shipping charges?<span class="glyphicon glyphicon-chevron-down"></span></a></h4>
+          </div>
+          <div id="collapseFive1" class="panel-collapse collapse">
+            <div class="panel-body">No. We attempt to keep the delivery process simple and transparent. Shipping is built into the cost of the meals, so no additional charges will be applied for shipping.</div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+  
+<footer>
+  <div class="container-fluid">
+    <div class="row" id="footer1">
+	<div class="col-sm-3" id="logo"><a href="index.html">Feast</a></div>
+      <div class="col-sm-3 foot" id="about"><b><a href="about.html">About</a></b></div>
+      <div class="col-sm-3 foot"><b><a href="faqs.html" id="faqs">FAQs</a></b></div>
+      <div class="col-sm-3 foot"><b><a href="contact.html" id="contact">Contact</a></b></div>
+    </div>
+  </div>
+  
+   <div class="container-fluid">
+    <div class="row" id="footer2">
+	<div class="col-sm-3" id="logo2"><a href="index.html">Feast</a></div>
+      <div class="foot col-sm-1" id="about2"><b><a href="about.html">About</a></b></div>
+      <div class="foot col-sm-1"><b><a href="faqs.html" id="faqs2">FAQs</a></b></div>
+      <div class="foot col-sm-1"><b><a href="contact.html" id="contact2">Contact</a></b></div>
+    </div>
+  </div>
+  </footer>
+  </body>
+</html>

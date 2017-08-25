@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Feast</title>
+
+    <!-- Bootstrap -->
+
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Poppins:400,600" rel="stylesheet">
+    <!--<link rel="stylesheet" type="text/css" href="css/feast.css" media="screen and (min-width:768px)">-->
+     <link href="css/bootstrap.min.css" rel="stylesheet">
+     
+
+<style>
+	body {font-family: 'Poppins', sans-serif;
+	min-width: 375px;
+
+}
+
+/*MOBILE NAVIGATION BEGINS*/
+.navbar{
+	height: 75px;
+	
+}
+
+	.navbar-toggle:hover{
+		background-color: white;
+	}
+
+img[src="../images/feastlogo.png"]{
+position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 107px;
+   height: 50px;
+   margin-top: -25px; /* Half the height */
+   margin-left: -53.5px; /* Half the width */
+}
+
+.navbar-brand{
+	font-family: 'Kaushan Script', cursive;
+	text-align: center;
+	/*font-size: 2em;*/
+}
+
+.navbar-toggle{
+		margin-left: 15px;
+		margin-top: 21px;
+	}
+
+#ham{
+	margin: 20px 0 10px 10px;
+}
+
+#menub{
+	background-color:#464646;
+	text-align: center;
+}
+
+#menub a{
+	color: white;
+	border-bottom: solid 1px white;
+}
+
+#menub a:hover{
+	color: #32987C;
+	text-decoration: none;
+}
+.navbar-header li{
+	list-style-type:none
+	}
+.glyphicon-shopping-cart{
+	list-style-type:none;
+	float: right;
+	margin-top: 20px;
+	margin-right: 10px;
+	font-size: 35px;
+	/*display:block;*/
+}
+#shopping2{
+	display: none;
+}
+	span.cart_color
+	{
+		color:#048361;
+	}
+
+/*MOBILE NAVIGATION ENDS*/	
+
+	
+	
+/*MOBILE FOOTER BEGINS*/
+footer{
+	background-color: #eff0f4;
+	font-size: 1.75em;
+	color:#464646;
+	
+}
+
+footer a{
+	text-decoration: none;
+	color:#464646;
+}
+
+footer a:hover{
+	color: #32987C;
+	text-decoration: none;
+}
+
+#logo{
+	font-family: 'Kaushan Script', cursive;
+	font-size: 2.25em;
+	color:#464646;
+	margin-bottom: 13px;
+	margin-top: 20px;
+	
+}
+
+.foot{
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+
+#logo2, #about2, #contact2, #faqs2{
+		display:none;
+	}
+/*MOBILE FOOTER ENDS*/
+	
+	
+/*MOBILE JUMBOTRON*/	
+	.jumbotron{
+		background-image: url(../images/kitchenbanner.jpg);
+		background-size:cover;
+		background-repeat: no-repeat;
+		min-height: 175px;
+		background-color:white;
+		background-position: center;
+		margin-top: -20px;
+	}
+/*ENDS MOBILE JUMBOTRON*/
+
+/*MOBILE SIDES MENU*/
+.nav-tabs > li, .nav-pills > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+     zoom:1; /* hasLayout ie7 trigger */
+}
+
+.nav-tabs, .nav-pills {
+    text-align:center;
+}
+	
+.food{
+		  max-width: 100%;
+		  height:auto;
+		  border-radius: 80px;
+		  padding: 50px;}
+	
+p{
+		  text-align: center;
+		  font-size: 1.5em;
+	  }
+.col-sm-4{
+		  text-align: center;
+		
+	  }
+
+h1{
+		text-align: center;
+	}	
+h2{
+		  font-size: 2em;
+		margin-top:-25px;
+	  }
+.add{
+		background-color:#eff0f4;
+		border-color: #7e7e7e;
+		color: #424242;
+		
+	}
+
+	.add a{
+		background-color:048361;
+	}
+	
+	.nav-tabs li{
+		font-size: 1.25em;
+		color:#424242;
+	}
+	
+	.nav-tabs li a{
+		color:#424242;
+		
+	}
+	
+	#now a{
+		background-color:#048361;
+		color:white;	
+	}
+	
+@media (min-width:575px){
+	.jumbotron{
+		background-image: url(../images/kitchenbanner.jpg);
+		background-size:cover;
+		background-repeat: no-repeat;
+		min-height: 250px;
+		background-color:white;
+		background-position: center;
+		margin-top: -20px;
+	}
+	
+	}
+	
+	
+@media (min-width:768px){
+
+	
+/*LARGE DISPLAY NAVIGATION BEGINS*/		
+	.navbar{
+	height: 75px;
+	
+	}
+	
+
+#menub{
+	background-color:transparent;
+	margin-top: 10px;
+	margin-left: 50px;
+	font-size: 1.5em;
+	
+}
+
+#menub a{
+	margin-left: 5px;
+	color: #464646;
+	text-decoration: none;
+	border-bottom: none;
+	
+	
+}
+
+#menub a:hover{
+	color: #424242;
+	text-decoration: underline;
+}
+
+img[src="../images/feastlogo.png"]{
+	position:relative;
+	float: left;
+	margin-left: -4px;
+	margin-top: -18px;
+	
+	
+	}
+	
+#shop{
+	display: none;
+}
+#shopping2{
+	display:block;
+	float: right;
+	margin-top: 18px;
+	margin-right: 10px;
+	
+	}
+	#current{
+		text-decoration: underline;
+	}
+/*LARGE DISPLAY NAVIGATION ENDS*/	
+	
+/*LARGE DISPLAY FOOTER BEGINS*/	
+	#footer1{
+		
+		background-color: #eff0f4;
+		height: 5px;
+		
+	}
+	#logo2{
+		display:block;
+		font-family: 'Kaushan Script', cursive;
+		margin-left: 2%;
+		font-size: 2em;
+		width: 150px;
+		margin-top: 5px;
+		
+	}
+	
+	#about2{
+	display:block;
+		
+	}
+	#faqs2{
+		display:block;
+		margin-left: 10px;
+	}
+	#contact2{
+		margin-left: 5px;
+		display:block;
+	}
+	.col-sm-1{
+		margin-top: 26px;
+	}
+	
+	
+	#logo, #about, #contact, #faqs{
+		display:none;
+	}
+	
+/*LARGE DISPLAY FOOTER ENDS*/	
+
+/*DESKTOP BANNER*/
+
+	.jumbotron{
+		background-image: url(../images/kitchenbanner.jpg);
+		background-size:cover;
+		background-repeat: no-repeat;
+		min-height:400px;
+		background-color:white;
+		background-position: center;}
+
+/*DESKTOP BANNER ENDS*/		
+
+/*DESKTOP MENU*/	
+	
+	.nav-tabs li{
+		font-size: 2em;
+		color:#424242;
+	}
+	
+	.nav-tabs li a{
+		color:#424242;
+		
+	}
+	
+	#now a{
+		background-color:#048361;
+		color:white;	
+	}
+	
+	#bottom{
+		margin-bottom: 70px;
+	}
+	
+/*DESKTOP MENU ENDS*/	
+}
+
+
+</style>	
+  </head>
+  <body>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#defaultNavbar1" aria-expanded="false" ><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+        <a class="navbar-brand" href="index.html">
+        <img src="../images/feastlogo.png" width="107" height="50" alt="logo"/></a>
+        <ul>
+			<li><a href="cart.html"><span class="glyphicon glyphicon-shopping-cart cart_color" id="shop"></span></a></li>
+        </ul>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="defaultNavbar1">
+        <ul class="nav navbar-nav" id="menub">
+          <li ><a href="sides.html">MENU<span class="sr-only">(current)</span></a></li>
+          <li ><a href="pricing.html">PRICING</a></li>
+			<li id="current"><a href="kitchenware.html">KITCHENWARE<span class="sr-only"></span></a></li>
+        </ul>
+		  <a href="cart.html"><span class="glyphicon glyphicon-shopping-cart cart_color" id="shopping2"></span></a>     
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+  <div class="jumbotron">
+  </div>
+<!--<ul class="nav nav-tabs">
+  <li role="presentation" id="now"><a href="#">Dinnerware</a></li>
+  <li role="presentation"><a href="#">Cookware</a></li>
+  <li role="presentation"><a href="#">Cutlery</a></li>
+</ul>-->
+<div class="container-fluid" id="menu">
+<div class="row">
+  <h1>Sharpen Your Skills with These Pro Tools!</h1>
+  <hr>
+  <div class="col-sm-4">
+    <img src="../images/woodspoon.jpg" width="720" height="480" alt="sliders" class="food"/>
+    <h2><strong>Wood Spoon Set</strong> | $26.99</h2>
+    <p>Eight Blunt-end spoons are heat-resistant.</p>
+    <p><a class="btn btn-primary btn-lg add" href="#" role="button"><b>Add</b></a></p>
+    </div>
+	<div class="col-sm-4"> 	
+<img src="../images/pan-fry.jpg" width="720" height="480" alt="fries" class="food"/>
+<h2><strong>Nonstick Pan</strong> | $69.99</h2>
+<p>100% PFOA-free, 100% recycled aluminum, 11 inch pan with insulated handle.</p>
+<p><a class="btn btn-primary btn-lg add" href="#" role="button"><b>Add</b></a></p>
+    </div>
+    <div class="col-sm-4">
+<img src="../images/potset.jpg" width="720" height="480" alt="brushetta" class="food"/>
+<h2><strong>All-Clad Stainless Steel Large Pot</strong> | $79.99</h2>
+<p>Handcrafted in the USA from five-ply stainless steel with aluminum core.</p>
+<p><a class="btn btn-primary btn-lg add" href="#" role="button"><b>Add</b></a></p>
+    </div>
+  </div>
+  </div>
+
+  <div class="container-fluid" id="bottom">
+<div class="row">
+
+	<div class="col-sm-4">
+    <img src="../images/cups.jpg" width="720" height="480" alt="hummus" class="food"/>
+    <h2><strong>Tea Cups</strong> | $14.99</h2>
+    <p>Two cups made with ceramics perfect for afternoon tea.</p>
+    <p><a class="btn btn-primary btn-lg add" href="#" role="button"><b>Add</b></a></p>
+    </div>
+	<div class="col-sm-4"> 	
+<img src="../images/plates.jpg" width="720" height="480" alt="" class="food"/>
+<h2><strong>Dinning Plate Set</strong> | $15.99</h2>
+<p>Two hand-crafted plates made of porcelain. Dishwasher and microwave safe.</p>
+<p><a class="btn btn-primary btn-lg add" href="#" role="button"><b>Add</b></a></p>
+    </div>
+    <div class="col-sm-4">
+<img src="../images/knifeset.jpg" width="720" height="480" alt="carrots" class="food"/>
+<h2><strong>Silver Dinning Set</strong> | $39.99</h2>
+<p>This five piece collection will enhance the elegance of any dinner table.</p>
+<p><a class="btn btn-primary btn-lg add" href="#" role="button"><b>Add</b></a></p>
+    </div>
+  </div>
+  </div>
+    
+    
+<footer>
+  <div class="container-fluid">
+    <div class="row" id="footer1">
+	<div class="col-sm-3" id="logo"><a href="index.html">Feast</a></div>
+      <div class="col-sm-3 foot" id="about"><b><a href="about.html">About</a></b></div>
+      <div class="col-sm-3 foot"><b><a href="faqs.html" id="faqs">FAQs</a></b></div>
+      <div class="col-sm-3 foot"><b><a href="contact.html" id="contact">Contact</a></b></div>
+    </div>
+  </div>
+  
+   <div class="container-fluid">
+    <div class="row" id="footer2">
+	<div class="col-sm-3" id="logo2"><a href="index.html">Feast</a></div>
+      <div class="foot col-sm-1" id="about2"><b><a href="about.html">About</a></b></div>
+      <div class="foot col-sm-1"><b><a href="faqs.html" id="faqs2">FAQs</a></b></div>
+      <div class="foot col-sm-1"><b><a href="contact.html" id="contact2">Contact</a></b></div>
+    </div>
+  </div>
+  </footer>
+  </body>
+</html>
