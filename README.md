@@ -1,6 +1,8 @@
 # Feast
 Web design + development.
 
+Live preview: https://daphnedeng.github.io/project1/feast/index.html
+
 This is an in class project. I worked in the a team of three to create this website. 
 
 You need to download all files to view the website locally.

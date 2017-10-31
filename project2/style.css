@@ -1,0 +1,472 @@
+body {
+    font-family: 'Muli', 'Open Sans', sans-serif;
+    margin: 0;   
+}
+
+section {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+/* hero section */
+
+#homeHero {
+    background-image: url("image/homeHeroBkg.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 115px;
+}
+
+header {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.9);
+    position: fixed;
+}
+
+header .inner {
+    max-width: calc(1440px * 0.8);
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+}
+
+.nav {
+    float: right;
+    height: 80px;
+}
+
+.nav li {
+    display: inline-block;
+}
+
+.mobileMenu {
+    display: none;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: rgb(66, 66, 66);
+    margin: 6px 0;
+    transition: 0.4s;
+    border-radius: 8px;
+}
+
+a {
+    color: black;
+    text-decoration: none;    
+    line-height: 80px;
+    padding: 0 25px;
+ /*   font-weight: 200; */
+    font-size: 14px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    white-space: nowrap;
+}
+
+li {
+ /*   display: inline-block; */
+    margin: 0;
+    padding: 0;
+}
+
+h1,h4 {
+/*    font-family: 'Open Sans', sans-serif; */
+    text-align: center;
+    text-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+    margin: 0;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    color: white;
+    }
+
+h4 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.flexContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: calc(1440px * 0.7);
+    margin: 0 auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 100%;
+}
+
+#searchBar {
+    margin: 0 4%; 
+    text-align: center;
+/*    display: flex; */
+
+    /* flex 默认系row, 所以唔洗写。 flex-direction: row; */
+}
+
+.searchInput {
+    height: 50px;
+    border-radius: 8px 0px 0px 8px;
+    border: none;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+}
+
+form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; 
+    width:100%;
+}
+
+.submitButton {
+    width: 250px;
+    height: 50px; 
+    background-color: rgb(255, 196, 0);
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+    border-radius: 0px 8px 8px 0px;
+    margin: 0;
+    border: none;
+  /*  word-spacing: 5px; */
+    letter-spacing: 0.8px;
+}
+
+input {
+    padding: 0 0 0 20px;
+}
+
+::-webkit-input-placeholder {
+    color: rgb(187, 187, 187);
+    font-size: 14px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+:-ms-input-placeholder {
+    color: rgb(187, 187, 187);
+    font-size: 14px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+::-ms-input-placeholder {
+    color: rgb(187, 187, 187);
+    font-size: 14px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+::placeholder {
+    color: rgb(187, 187, 187);
+    font-size: 14px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+/* how it work section*/
+
+h3 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    color: rgb(66, 66, 66);
+}
+
+img {
+    vertical-align: top;
+    border: 0;
+    max-width: 100%;
+}
+
+.howItWorkContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: calc(1440px * 0.7); 
+    margin: 0 auto;
+/*    box-sizing: border-box;
+    padding: 0 3%;  */
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+#howItWork {
+    background-color: rgb(255, 250, 245);
+}
+
+.colm {
+    flex: 1;
+    justify-content: space-between;
+/*    margin: 20px; */ 
+}
+
+.colm:nth-child(2) {
+    margin: 0 40px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(66, 66, 66);
+    white-space: normal;
+}
+
+/* our mission section */
+.flexContainer2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: calc(1440px * 0.6);
+    margin: 0 auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 100%;
+}
+
+#mission {
+    background-image: url("image/mission.jpg");
+/*    height: 280px;    */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#mission h3 {
+    color: white;
+    text-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+#mission p {
+    color: white;
+    text-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+    font-weight: 200;
+    line-height: 30px;
+    text-align: center;
+}
+
+/* homeBottomSearch section */
+
+#homeBottomSearch {
+    background-color: rgb(255, 250, 245);
+}
+
+.flexContainer h3 {
+    color: rgb(66, 66, 66);
+}
+
+#searchBar2 {
+ /*   border: 1px solid;
+    border-radius: 8px; */
+    margin: 0 1%;
+}
+
+#searchBar2 input {
+    border-radius: 8px 0px 0px 8px;
+    border: 1px solid;
+    height: 48px;
+    border-right: 0;
+    border-color: rgb(224, 224, 224);
+}
+
+#homeBottomSearch p {
+    margin-bottom: 50px;
+}
+
+footer p {
+    font-size: 12px;
+    font-weight: 200;
+    text-align: right;
+    color: rgb(66, 66, 66);
+}
+
+footer {
+    background-color: white;
+}
+
+/* responsive */
+
+/* screen size 1080px */
+@media (max-width: 1080px) {
+    .howItWorkContainer { 
+        box-sizing: border-box;
+        padding: 0 3%;  
+    }
+}
+
+
+/* tablet: screen size 979px */
+
+@media (max-width: 979px) {
+    section {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+
+    .nav {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    #homeHero {
+        background-image: url("image/homeHeroBkg979.jpg");
+        background-position: center;
+    }
+    .flexContainer, .flexContainer2 {
+        margin: 0 3%;
+    }
+}
+
+/* mobile: screen size 480px */
+
+/* Nav */
+@media (max-width: 480px) {
+    section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    footer p {
+        text-align: center;
+    }
+
+    p {
+        font-weight: extra-bold;
+    }
+
+    .inner {
+        overflow: hidden; 
+        height: 60px; /* 有三条横线的白色bar既高度有60px */
+    }
+
+    .nav {
+        margin: 0;
+        overflow: hidden; /* nav不会显示，因为用overflow将溢出的部分隐藏了 */
+        height: 0;
+        position: fixed;
+        top: 60px;    /* 距离上边距有60px */
+        width: 100%;
+        transition: height 0.3s; /* 加上transition使它看上去有动态效果 */
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+
+    /* 当这个nav打开的时候，就把整个高度显示出来 */
+    .nav.open {
+        height: 130px;
+    }
+
+    .mobileMenu {
+        display: block;
+        float: right;
+        margin-right: 5%;
+        margin-top: 10.5px;    
+    }
+
+    .mobileMenu.open .bar1 {
+        transform: translate(0px, 11px) rotate(45deg);
+        transition: transform 0.3s;
+    }
+    .mobileMenu.open .bar2 {
+        opacity: 0;
+    }   
+    .mobileMenu.open .bar3 {
+        transform:  translate(0px, -11px) rotate(-45deg);
+        transition: transform 0.3s;
+    }
+
+    .nav ul {
+        padding: none;
+    }
+
+    .nav li {
+        display: block;
+        height: 60px;
+    }
+
+    /* hero */
+    #homeHero {
+        background-image: url("image/homeHeroBkg480.jpg");
+        background-position: center;
+        padding-top: 70px
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .searchInput {
+        border-radius: 8px;
+        margin-bottom: 30px;
+    }
+    
+    .submitButton {
+        border-radius: 8px;
+        width: 100%
+    }
+    /* how it work section */
+
+    .howItWorkContainer {
+        flex-direction: column;  
+        margin: 0 3%; 
+    }
+
+    .colm {
+       margin: 0;
+       text-align: center;
+       margin-bottom: 30px;
+    }
+
+    .colm:nth-child(2) {
+        margin: 0 0 30px 0;
+    }
+
+    /* mission section */
+
+    #searchBar2 input {
+        border-radius: 8px;
+        border: 1px solid;
+        height: 48px;
+        border-color: rgb(224, 224, 224);
+    }
+
+}
+

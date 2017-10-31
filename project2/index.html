@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Find Recipes by Ingredients</title>
+    <link href="https://fonts.googleapis.com/css?family=Muli|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="inner">
+            <div class="logo"><img src="" alt=""></div>
+             <nav class="nav">
+                <ul>
+                    <li><a href="url">About</a></li>
+                    <li><a href="url">Contact</a></li>
+                </ul>                
+             </nav>
+                <div class="mobileMenu" onclick="myFunction(this)">
+                  <div class="bar1"></div>
+                  <div class="bar2"></div>
+                  <div class="bar3"></div>
+                </div>
+                <script>
+                   function myFunction () {
+                       // document.querSelector -> 把这个class从html里选出来. classList即系想将呢个class拿黎做乜。在这里是需要把这个classList打开
+                    document.querySelector('.nav').classList.toggle('open');
+                    document.querySelector('.mobileMenu').classList.toggle('open');
+                   }
+                </script>
+        </div>
+    </header>
+    <section id="homeHero">           
+            <div class="flexContainer">
+                <h1>Recipes by Ingredients</h1>
+                <h4>Discover delicious recipes by the ingredients in your fridge, cooking becomes easy!</h4>
+                <div id="searchBar">
+                    <form action="">
+                        <input type="text" placeholder="Enter your ingredients here. e.g: egg, milk, beef, etc." class="searchInput">
+                        <button type="submit" class="submitButton">
+                        Find  Recipes
+                        </button>
+                    </form>
+                </div>
+            </div>
+    </section>
+    <section id="howItWork">
+            <h3>How It Works</h3>
+                <div class="howItWorkContainer">
+                    <div class="colm">
+                        <img src="image/ingredient.jpg">
+                        <p>Take ingredients out from your fridge.</p>
+                    </div>
+                    <div class="colm">
+                        <img src="image/findRecipe.jpg">
+                        <ul>
+                            <li><p>Search recipes by entering your ingredients.</p></li>
+                            <li><p>Pick the dish you want to make.</p></li>
+                            <li><p>Follow steps and start cooking.</p></li>
+                        </ul>
+                    </div>
+                    <div class="colm">
+                        <img src="image/mealready.jpg">
+                        <p>A wonderful meal is ready for you to enjoy!</p>
+                    </div>
+                </div>
+    </section>
+    <section id="mission">
+            <div class="flexContainer2">
+                    <h3>Our Mission</h3>
+                    <p>Cooking can be fun! We want to help more people experience the happiness of making food. No cooking experience? No problem! Our platform provides recipes based on the ingredients you put in. Everyone can make delicious food!</p>
+            </div>
+    </section>
+    <section id="homeBottomSearch">
+            <div class="flexContainer2">
+                    <h3>Start cooking by discovering recipes with the ingredients you have.</h3>                    
+                    <!-- <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p> -->
+                    <div id="searchBar2">
+                        <form action="">
+                            <input type="text" placeholder="Enter your ingredients here. e.g: egg, milk, beef, etc." class="searchInput">
+                            <button type="submit" class="submitButton">
+                            Find  Recipes
+                            </button>
+                        </form>
+                    </div>
+                </div>
+    </section>
+    <footer>
+        <div class="flexContainer">
+            <p>	&copy;2017 QuckBite</p>
+        </div>
+    </footer>
+</body>
+</html>
