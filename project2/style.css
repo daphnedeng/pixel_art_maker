@@ -8,7 +8,14 @@ section {
     padding-bottom: 96px;
 }
 
-/* hero section */
+a {
+    margin: 0;
+}
+.material-icons {
+    vertical-align:-14%;
+}
+
+/* ---------------- hero section ---------------- */
 
 #homeHero {
     background-image: url("image/homeHeroBkg.jpg");
@@ -35,6 +42,11 @@ header .inner {
 
 .logo {
     float: left;
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
 }
 
 .nav {
@@ -43,6 +55,15 @@ header .inner {
 }
 
 .nav li {
+    display: inline-block;
+}
+
+.navAboutContact {
+    float: right;
+    height: 80px;
+}
+
+.navAboutContact li {
     display: inline-block;
 }
 
@@ -129,6 +150,7 @@ h4 {
 }
 
 .searchInput {
+    font-size: 17px;
     height: 50px;
     border-radius: 8px 0px 0px 8px;
     border: none;
@@ -190,13 +212,14 @@ input {
     font-style: italic;
 }
 
-/* how it work section*/
+/* ---------------- how it work section ---------------- */
 
 h3 {
     text-align: center;
     font-size: 36px;
     font-weight: 600;
     color: rgb(66, 66, 66);
+    margin-top: 0;
 }
 
 img {
@@ -239,7 +262,7 @@ p {
     white-space: normal;
 }
 
-/* our mission section */
+/* ---------------- our mission section ---------------- */
 .flexContainer2 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -276,7 +299,7 @@ p {
     text-align: center;
 }
 
-/* homeBottomSearch section */
+/* ---------------- homeBottomSearch section ---------------- */
 
 #homeBottomSearch {
     background-color: rgb(255, 250, 245);
@@ -315,7 +338,150 @@ footer {
     background-color: white;
 }
 
-/* responsive */
+/* ----------------------- DISPLAY RESULTS PAGE STARTS HERE ----------------------- */
+/* ------------------------------------------------------------------ */
+/* Search Bar in Nav for ALLRESULTS page*/
+#navSearchBar {
+    position: relative;
+    display: inline-block;
+    /* parent element 100% width - logo total width(logo weidth+logo left&right margin)*/
+    width: calc(100% - 125px);
+    /* widest is 550px*/
+    max-width: 550px;
+    margin-top: 15px;
+    margin-right: 25px;
+
+}
+
+.navSearchInput {
+    width: 100%;
+    max-width: 550px;
+    font-size: 17px;
+    height: 50px;
+    border-radius: 8px;
+    border: 1px solid rgb(214, 214, 214);
+    padding-left: 60px;
+/*    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1; */
+           
+}
+
+/* 放大镜圆形 */
+.mglass {
+    position: absolute;
+    display:inline-block;
+    background: #fff;
+    border-radius: 30px;
+    height: 16px;
+    width: 16px;
+    border: 2px solid rgb(180, 180, 180);
+    top: 15px;
+    left: 15px;
+}
+/* 放大镜手柄 */
+.mglass:after {
+    content: "";
+    height: 2px;
+    width: 7px;
+    background: rgb(180, 180, 180);
+    position:absolute;
+    top:14px;
+    left:10px;
+    transform: rotate(45deg);
+}
+
+.divideLine {
+    height: 1px;
+    width: 100%;
+    background: rgb(214, 214, 214);
+}
+/* Search Bar in Nav for ALLRESULTS page*/
+
+/* ---------------- found section ---------------- */
+#found {
+    padding-top: 130px;
+    padding-bottom: 50px;
+}
+
+#allResults {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.underline {
+    border-bottom: 2px solid #FC5904;
+}
+
+/* ---------------- All Results section ---------------- */
+
+#allResults h5 {
+    font-size: 22px;
+    margin: 20px 0;
+}
+
+.material-icons {
+    color: #FC5904;
+}
+
+#allResults .dishName {
+    white-space: normal;
+}
+
+.ingSummary li {
+    margin-bottom: 15px;
+}
+
+#found h3 {
+    padding: 0 3%;
+}
+
+.pageNumber {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.oneToEnd {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.oneToEnd li {
+    flex-direction: column;
+    align-self: center;
+    margin: 0 auto;
+}
+
+.pageArrow {
+    border: 1px solid;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    text-align: center;
+}
+
+.activePage {
+    color: #239500;
+    border: 1px solid #239500;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    text-align: center;
+    background: #239500;
+    color: white;
+}
+
+.pageNumber p {
+    font-size: 15px;
+    font-weight: 200;
+    text-align: center;
+
+/*-------------------------------- responsive -------------------------------- */
 
 /* screen size 1080px */
 @media (max-width: 1080px) {
@@ -326,7 +492,7 @@ footer {
 }
 
 
-/* tablet: screen size 979px */
+/* --------------------------------- tablet: screen size 979px --------------------------------- */
 
 @media (max-width: 979px) {
     section {
@@ -334,10 +500,20 @@ footer {
         padding-bottom: 75px;
     }
 
+    #found {
+        padding-top: 96px;;
+    }
+
     .nav {
         margin-left: 3%;
         margin-right: 3%;
     }
+
+    .navAboutContact {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
     #homeHero {
         background-image: url("image/homeHeroBkg979.jpg");
         background-position: center;
@@ -345,12 +521,32 @@ footer {
     .flexContainer, .flexContainer2 {
         margin: 0 3%;
     }
+
+    #found {
+        padding-top: 120px;
 }
 
-/* mobile: screen size 480px */
+/* -------------------------- for all results page -------------------------- */
+@media (max-width: 900px) {
 
-/* Nav */
+    .navAboutContact {
+        display: none;
+    }
+
+    #navSearchBar {
+        margin-bottom: 15px;
+    }
+
+}
+
+/* -------------------------------- mobile: screen size 480px -------------------------------- */
+
+/* ---------------- Nav ---------------- */
 @media (max-width: 480px) {
+    .logo {
+        margin-top: 10px;
+    }
+
     section {
         padding-top: 50px;
         padding-bottom: 50px;
@@ -366,7 +562,7 @@ footer {
 
     .inner {
         overflow: hidden; 
-        height: 60px; /* 有三条横线的白色bar既高度有60px */
+        height: 80px; /* 有三条横线的白色bar既高度有60px */
     }
 
     .nav {
@@ -374,7 +570,7 @@ footer {
         overflow: hidden; /* nav不会显示，因为用overflow将溢出的部分隐藏了 */
         height: 0;
         position: fixed;
-        top: 60px;    /* 距离上边距有60px */
+        top: 80px;    /* 距离上边距有60px */
         width: 100%;
         transition: height 0.3s; /* 加上transition使它看上去有动态效果 */
         background-color: rgba(255, 255, 255, 0.9);
@@ -389,7 +585,7 @@ footer {
         display: block;
         float: right;
         margin-right: 5%;
-        margin-top: 10.5px;    
+        margin-top: 5%;    
     }
 
     .mobileMenu.open .bar1 {
@@ -413,11 +609,11 @@ footer {
         height: 60px;
     }
 
-    /* hero */
+/* ---------------- hero ---------------- */
     #homeHero {
         background-image: url("image/homeHeroBkg480.jpg");
         background-position: center;
-        padding-top: 70px
+        padding-top: 80px
     }
 
     h1 {
@@ -442,16 +638,17 @@ footer {
         border-radius: 8px;
         width: 100%
     }
-    /* how it work section */
+
+/* ---------------- how it work section ---------------- */
 
     .howItWorkContainer {
         flex-direction: column;  
-        margin: 0 3%; 
+        margin: 0 10%; 
     }
 
     .colm {
        margin: 0;
-       text-align: center;
+       /* text-align: center; */
        margin-bottom: 30px;
     }
 
@@ -459,7 +656,7 @@ footer {
         margin: 0 0 30px 0;
     }
 
-    /* mission section */
+/* ---------------- mission section ---------------- */
 
     #searchBar2 input {
         border-radius: 8px;
