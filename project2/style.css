@@ -8,9 +8,6 @@ section {
     padding-bottom: 96px;
 }
 
-a {
-    margin: 0;
-}
 .material-icons {
     vertical-align:-14%;
 }
@@ -235,7 +232,7 @@ img {
     max-width: calc(1440px * 0.7); 
     margin: 0 auto;
 /*    box-sizing: border-box;
-    padding: 0 3%;  */
+    padding: 0 3%; */ 
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -480,11 +477,12 @@ footer {
     font-size: 15px;
     font-weight: 200;
     text-align: center;
+}
 
 /*-------------------------------- responsive -------------------------------- */
 
 /* screen size 1080px */
-@media (max-width: 1080px) {
+@media  (max-width: 1080px) {
     .howItWorkContainer { 
         box-sizing: border-box;
         padding: 0 3%;  
@@ -562,7 +560,7 @@ footer {
 
     .inner {
         overflow: hidden; 
-        height: 80px; /* 有三条横线的白色bar既高度有60px */
+        height: 80px; /* 有三条横线的白色bar既高度有80px */
     }
 
     .nav {
@@ -570,7 +568,7 @@ footer {
         overflow: hidden; /* nav不会显示，因为用overflow将溢出的部分隐藏了 */
         height: 0;
         position: fixed;
-        top: 80px;    /* 距离上边距有60px */
+        top: 80px;    /* 距离上边距有80px */
         width: 100%;
         transition: height 0.3s; /* 加上transition使它看上去有动态效果 */
         background-color: rgba(255, 255, 255, 0.9);
