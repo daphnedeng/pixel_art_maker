@@ -22,4 +22,4 @@ Responsible for the entire design and development phases.
 Summary:
 - QuckBite lets you discover recipes by entering your ingredients.
  
-# other design pojects are available here: https://www.ddcreate.me/
+# My other design pojects are available here: https://www.ddcreate.me/
