@@ -1,4 +1,4 @@
-# >> To View All Project Demos Please Scroll Down.
+# ↓ Scroll Down To View Demos for Different Projects.
 
 # Project1: Feast
 Web design + development.
