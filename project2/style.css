@@ -60,8 +60,15 @@ header .inner {
     height: 80px;
 }
 
-.navAboutContact li {
+/* .navAboutContact li {
     display: inline-block;
+} */
+
+.navLinks {
+    padding: 0 25px;
+    display: inline-block;
+    line-height: 80px;
+    font-size: 14px;
 }
 
 .mobileMenu {
@@ -80,10 +87,11 @@ header .inner {
 a {
     color: black;
     text-decoration: none;    
-    line-height: 80px;
+ /* line-height: 80px; 
     padding: 0 25px;
- /*   font-weight: 200; */
+    font-weight: 200; 
     font-size: 14px;
+    灰色部分应该写在对应的元素，全局最小影响 */
 }
 
 ul {
@@ -347,7 +355,6 @@ footer {
     max-width: 550px;
     margin-top: 15px;
     margin-right: 25px;
-
 }
 
 .navSearchInput {
@@ -498,19 +505,15 @@ footer {
         padding-bottom: 75px;
     }
 
-    #found {
-        padding-top: 96px;;
-    }
-
     .nav {
         margin-left: 3%;
         margin-right: 3%;
     }
 
-    .navAboutContact {
+/*    .navAboutContact {
         margin-left: 3%;
         margin-right: 3%;
-    }
+    } */
 
     #homeHero {
         background-image: url("image/homeHeroBkg979.jpg");
@@ -520,12 +523,10 @@ footer {
         margin: 0 3%;
     }
 
-    #found {
-        padding-top: 120px;
-}
+} 
 
 /* -------------------------- for all results page -------------------------- */
-@media (max-width: 900px) {
+@media (max-width: 945px) {
 
     .navAboutContact {
         display: none;
@@ -583,7 +584,7 @@ footer {
         display: block;
         float: right;
         margin-right: 5%;
-        margin-top: 5%;    
+        margin-top: 20.5px;;    
     }
 
     .mobileMenu.open .bar1 {
