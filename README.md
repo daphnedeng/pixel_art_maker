@@ -16,6 +16,8 @@ Summary:
 Web design + development.
 
 ► Preview: https://daphnedeng.github.io/project2/index.html
+           https://daphnedeng.github.io/project2/allresults.html
+           https://daphnedeng.github.io/project2/singleResult.html
 
 Responsible for the entire design and development phases.
 
