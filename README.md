@@ -1,7 +1,7 @@
 # ↓ Scroll Down To View Demos for Different Projects.
 
 # Project1: Feast
-Web design + development.
+Web design + frontend development.
 
 ► Preview: https://daphnedeng.github.io/project1/feast/index.html
 
