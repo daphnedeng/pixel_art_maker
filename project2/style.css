@@ -1,3 +1,7 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Muli', 'Open Sans', sans-serif;
+}
+
 body {
     font-family: 'Muli', 'Open Sans', sans-serif;
     margin: 0;   
@@ -12,6 +16,7 @@ section {
     vertical-align:-14%;
 }
 
+/* ---------------------------- Index.HTML ---------------------------- */
 /* ---------------- hero section ---------------- */
 
 #homeHero {
@@ -68,7 +73,7 @@ header .inner {
     padding: 0 25px;
     display: inline-block;
     line-height: 80px;
-    font-size: 14px;
+    font-size: 12pt;
 }
 
 .mobileMenu {
@@ -80,6 +85,8 @@ header .inner {
     height: 5px;
     background-color: rgb(66, 66, 66);
     margin: 6px 0;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
     transition: 0.4s;
     border-radius: 8px;
 }
@@ -90,7 +97,7 @@ a {
  /* line-height: 80px; 
     padding: 0 25px;
     font-weight: 200; 
-    font-size: 14px;
+    font-size: 12pt;
     灰色部分应该写在对应的元素，全局最小影响 */
 }
 
@@ -109,22 +116,25 @@ li {
     padding: 0;
 }
 
-h1,h4 {
-/*    font-family: 'Open Sans', sans-serif; */
+h5 {
+    font-size: 16pt;
+}
+
+#homeHero h1 {
     text-align: center;
     text-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
     margin: 0;
-}
-
-h1 {
-    font-size: 48px;
+    font-size: 36pt;
     font-weight: 600;
     margin-bottom: 50px;
     color: white;
     }
 
-h4 {
-    font-size: 24px;
+#homeHero h4 {
+    text-align: center;
+    text-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+    margin: 0;
+    font-size: 18pt;
     font-weight: 400;
     margin-bottom: 50px;
     color: white;
@@ -155,7 +165,7 @@ h4 {
 }
 
 .searchInput {
-    font-size: 17px;
+    font-size: 12pt;
     height: 50px;
     border-radius: 8px 0px 0px 8px;
     border: none;
@@ -176,7 +186,7 @@ form {
     height: 50px; 
     background-color: rgb(255, 196, 0);
     color: white;
-    font-size: 20px;
+    font-size: 15pt;
     font-weight: 200;
     border-radius: 0px 8px 8px 0px;
     margin: 0;
@@ -191,39 +201,39 @@ input {
 
 ::-webkit-input-placeholder {
     color: rgb(187, 187, 187);
-    font-size: 14px;
+    font-size: 10pt;
     font-weight: 100;
     font-style: italic;
 }
 
 :-ms-input-placeholder {
     color: rgb(187, 187, 187);
-    font-size: 14px;
+    font-size: 10pt;
     font-weight: 100;
     font-style: italic;
 }
 
 ::-ms-input-placeholder {
     color: rgb(187, 187, 187);
-    font-size: 14px;
+    font-size: 10pt;
     font-weight: 100;
     font-style: italic;
 }
 
 ::placeholder {
     color: rgb(187, 187, 187);
-    font-size: 14px;
+    font-size: 10pt;
     font-weight: 100;
     font-style: italic;
 }
 
 /* ---------------- how it work section ---------------- */
 
-h3 {
-    text-align: center;
-    font-size: 36px;
-    font-weight: 600;
+.centerbkh3 {
     color: rgb(66, 66, 66);
+    text-align: center;
+    font-size: 26pt;
+    font-weight: 600;
     margin-top: 0;
 }
 
@@ -251,8 +261,12 @@ img {
 }
 
 .colm {
-    flex: 1;
-    justify-content: space-between;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 /*    margin: 20px; */ 
 }
 
@@ -261,7 +275,7 @@ img {
 }
 
 p {
-    font-size: 20px;
+    font-size: 16pt;
     font-weight: 400;
     color: rgb(66, 66, 66);
     white-space: normal;
@@ -291,7 +305,11 @@ p {
     background-size: cover;
 }
 
-#mission h3 {
+.centerwhh3 {
+    text-align: center;
+    font-size: 28pt;
+    font-weight: 600;
+    margin-top: 0;
     color: white;
     text-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
 }
@@ -308,10 +326,6 @@ p {
 
 #homeBottomSearch {
     background-color: rgb(255, 250, 245);
-}
-
-.flexContainer h3 {
-    color: rgb(66, 66, 66);
 }
 
 #searchBar2 {
@@ -333,7 +347,7 @@ p {
 }
 
 footer p {
-    font-size: 12px;
+    font-size: 9pt;
     font-weight: 200;
     text-align: right;
     color: rgb(66, 66, 66);
@@ -343,7 +357,7 @@ footer {
     background-color: white;
 }
 
-/* ----------------------- DISPLAY RESULTS PAGE STARTS HERE ----------------------- */
+/* ----------------------- allresults.html STARTS HERE ----------------------- */
 /* ------------------------------------------------------------------ */
 /* Search Bar in Nav for ALLRESULTS page*/
 #navSearchBar {
@@ -360,14 +374,14 @@ footer {
 .navSearchInput {
     width: 100%;
     max-width: 550px;
-    font-size: 17px;
+    font-size: 12pt;
     height: 50px;
     border-radius: 8px;
     border: 1px solid rgb(214, 214, 214);
     padding-left: 60px;
-/*    -webkit-box-flex: 1;
+    -webkit-box-flex: 1;
         -ms-flex: 1;
-            flex: 1; */
+            flex: 1; 
            
 }
 
@@ -392,7 +406,9 @@ footer {
     position:absolute;
     top:14px;
     left:10px;
-    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
 }
 
 .divideLine {
@@ -419,8 +435,8 @@ footer {
 
 /* ---------------- All Results section ---------------- */
 
-#allResults h5 {
-    font-size: 22px;
+.dishNameh5 {
+    font-size: 16pt;
     margin: 20px 0;
 }
 
@@ -428,8 +444,8 @@ footer {
     color: #FC5904;
 }
 
-#allResults .dishName {
-    white-space: normal;
+.ingContent {
+    white-space: normal; /* white-space:normal使text wrap */
 }
 
 .ingSummary li {
@@ -448,14 +464,22 @@ footer {
 }
 
 .oneToEnd {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-bottom: 20px;
 }
 
 .oneToEnd li {
-    flex-direction: column;
-    align-self: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-item-align: center;
+        align-self: center;
     margin: 0 auto;
 }
 
@@ -481,17 +505,131 @@ footer {
 }
 
 .pageNumber p {
-    font-size: 15px;
+    font-size: 12pt;
     font-weight: 200;
     text-align: center;
 }
 
-/*-------------------------------- responsive -------------------------------- */
+/* ----------------------- singleResult.html PAGE STARTS HERE ----------------------- */
+/* ---------------------------  hero section  ----------------------------- */
+#ingOverview {
+    padding: 150px 0 70px 0;
+}
+
+.Container1008 {
+    max-width: calc(1440px * 0.7); 
+    margin: 0 auto;
+/*    box-sizing: border-box;
+    padding: 0 3%; */ 
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.divideLine2 {
+    height: 1px;
+    width: 100%;
+    background: rgb(214, 214, 214);
+    margin: 50px 0;
+}
+
+.ov3070container {
+    max-width: calc(1440px * 0.7);
+    margin: 0 auto; 
+    display: -webkit-box; 
+    display: -ms-flexbox; 
+    display: flex;
+}
+
+.ovLeft {
+    float: left;
+    width: 30%;
+    background-image: url("image/ovleftimg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ovRight {
+    float: right;
+    width: 70%;
+    padding-left: 30px;
+}
+
+.ovRight-left {
+    float: left;
+    width: 50%; 
+}
+
+.ovRight-right {
+    float: right;
+    width: 50%; 
+} 
+
+/* ---------------------------  cooking steps section  ----------------------------- */
+#cookingSteps {
+    padding-top: 50px;
+}
+
+.Container1008 img {
+    background-repeat: no-repeat;
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+}
+
+.bgText {
+    font-size: 30pt;
+    font-weight: 800;
+    color: #FC5904; 
+}
+
+/* ---------------------------  related dishes section  ----------------------------- */
+#relatedDishes {
+    padding-top: 50px;
+}
+
+#relatedDishes .Container1008 h3 {
+    margin-bottom: 25px;
+}
+
+.Container1008flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: calc(1440px * 0.7);
+    margin: 0 auto;
+}
+
+.colmW33 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+ .colmW33:nth-child(2) {
+     margin: 0 40px;
+}
+
+#refreshRelatedDishes {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#refreshRelatedDishes i{
+    color: #239500;
+}
+
+/*-------------------------------- responsive for all pages -------------------------------- */
 
 /* screen size 1080px */
 @media  (max-width: 1080px) {
-    .howItWorkContainer { 
-        box-sizing: border-box;
+    .howItWorkContainer, .flexContainer2, .ov3070container, .Container1008, .Container1008flex  { 
+        -webkit-box-sizing: border-box; 
+                box-sizing: border-box;
         padding: 0 3%;  
     }
 }
@@ -519,13 +657,14 @@ footer {
         background-image: url("image/homeHeroBkg979.jpg");
         background-position: center;
     }
-    .flexContainer, .flexContainer2 {
+    .flexContainer, .flexContainer2, {
         margin: 0 3%;
     }
 
 } 
 
-/* -------------------------- for all results page -------------------------- */
+/* -------------------------- tablet: screen size 945px -------------------------- */
+/* -------------------------- for allResults.html page -------------------------- */
 @media (max-width: 945px) {
 
     .navAboutContact {
@@ -536,10 +675,27 @@ footer {
         margin-bottom: 15px;
     }
 
+    /* ---------------------- for singleResult.html page --------------------- */    
+    .ov3070container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ovLeft {
+        width: 100%;
+        height: 300px;
+        margin-bottom: 20px;     
+    }
+
+    .ovRight {
+        padding: 0;
+        width: 100%;
+    }
+
 }
 
 /* -------------------------------- mobile: screen size 480px -------------------------------- */
-
+/* ----------------- index.html ----------------- */
 /* ---------------- Nav ---------------- */
 @media (max-width: 480px) {
     .logo {
@@ -571,6 +727,8 @@ footer {
         position: fixed;
         top: 80px;    /* 距离上边距有80px */
         width: 100%;
+        -webkit-transition: height 0.3s;
+        -o-transition: height 0.3s;
         transition: height 0.3s; /* 加上transition使它看上去有动态效果 */
         background-color: rgba(255, 255, 255, 0.9);
     }
@@ -588,15 +746,27 @@ footer {
     }
 
     .mobileMenu.open .bar1 {
-        transform: translate(0px, 11px) rotate(45deg);
+        -webkit-transform: translate(0px, 11px) rotate(45deg);
+            -ms-transform: translate(0px, 11px) rotate(45deg);
+                transform: translate(0px, 11px) rotate(45deg);
+        -webkit-transition: -webkit-transform 0.3s;
+        transition: -webkit-transform 0.3s;
+        -o-transition: transform 0.3s;
         transition: transform 0.3s;
+        transition: transform 0.3s, -webkit-transform 0.3s;
     }
     .mobileMenu.open .bar2 {
         opacity: 0;
     }   
     .mobileMenu.open .bar3 {
-        transform:  translate(0px, -11px) rotate(-45deg);
+        -webkit-transform:  translate(0px, -11px) rotate(-45deg);
+            -ms-transform:  translate(0px, -11px) rotate(-45deg);
+                transform:  translate(0px, -11px) rotate(-45deg);
+        -webkit-transition: -webkit-transform 0.3s;
+        transition: -webkit-transform 0.3s;
+        -o-transition: transform 0.3s;
         transition: transform 0.3s;
+        transition: transform 0.3s, -webkit-transform 0.3s;
     }
 
     .nav ul {
@@ -612,20 +782,25 @@ footer {
     #homeHero {
         background-image: url("image/homeHeroBkg480.jpg");
         background-position: center;
-        padding-top: 80px
+        padding-top: 100px
     }
 
     h1 {
-        font-size: 36px;
+        font-size: 36pt;
     }
 
     h3 {
-        font-size: 30px;
+        font-size: 20pt;
     }
 
     form {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
 
     .searchInput {
@@ -641,7 +816,10 @@ footer {
 /* ---------------- how it work section ---------------- */
 
     .howItWorkContainer {
-        flex-direction: column;  
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;  
         margin: 0 10%; 
     }
 
@@ -655,6 +833,10 @@ footer {
         margin: 0 0 30px 0;
     }
 
+    .colm:nth-child(3) {
+        margin-bottom: 0;
+    }
+
 /* ---------------- mission section ---------------- */
 
     #searchBar2 input {
@@ -664,5 +846,49 @@ footer {
         border-color: rgb(224, 224, 224);
     }
 
-}
+/* ----------------- singleResult.html ----------------- */
 
+    #ingOverview {
+        padding-top: 80px;
+    }
+
+    .ov3070container {
+        padding: 0;
+    }
+
+    .ovRight {
+        padding: 0 3%;
+    }
+
+    #cookingSteps {
+        padding-top: 15px;
+    }
+
+    .ovRight-left, .ovRight-right {
+        width: 100%;
+    }
+
+    .Container1008flex {
+        flex: 1;
+    }
+
+    .divideLine2 {
+        margin: 50px 0 30px 0;
+    }
+
+    .ovRight-left {
+        margin-bottom: 20px;
+    }
+
+    .colmW33:nth-child(1) {
+        padding-right: 10px;
+    }
+
+    .colmW33:nth-child(2) {
+        margin: 0;
+    }
+
+    .colmW33:nth-child(3) {
+        padding-left: 10px;
+    }
+}
