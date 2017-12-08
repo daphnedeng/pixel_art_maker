@@ -1,13 +1,9 @@
 # ↓ Scroll Down To View Demos for Different Projects.
 
 # Project1: Feast
-Web design + development.
+Web design + frontend development.
 
-<<<<<<< HEAD
-► Live preview: https://daphnedeng.github.io/project1/feast/index.html
-=======
 ► Preview: https://daphnedeng.github.io/project1/feast/index.html
->>>>>>> 806a311979c20b4dd98cf491272a1434cc713b3b
 
 This is an in class project. I worked in the a team of three to create this website. 
 
@@ -19,15 +15,16 @@ Summary:
 # Project2: QuckBite
 Web design + development.
 
-<<<<<<< HEAD
-► Live preview: https://daphnedeng.github.io/project2/index.html
-=======
 ► Preview: https://daphnedeng.github.io/project2/index.html
->>>>>>> 806a311979c20b4dd98cf491272a1434cc713b3b
+https://daphnedeng.github.io/project2/allresults.html
+https://daphnedeng.github.io/project2/singleResult.html
 
 Responsible for the entire design and development phases.
 
 Summary:
 - QuckBite lets you discover recipes by entering your ingredients.
+
+Current Progress:
+- Finished front-end prototypes, working on API calls. - 2017.11.26
  
 # My other design pojects are available here: https://www.ddcreate.me/
