@@ -17,10 +17,11 @@ Web design + development.
 
 ► Preview: https://daphnedeng.github.io/project2/index.html
 
-Responsible for the entire design and development phases.
+Responsible for the entire design and UI development phases. 
+First prototype.
 
 Summary:
-- QuckBite lets you discover recipes by entering your ingredients.
+- QuckBite lets you discover recipes by entering your ingredients. 
 
 # Project3: Walking Character
 Web animation.
