@@ -22,15 +22,12 @@ Responsible for the entire design and development phases.
 Summary:
 - QuckBite lets you discover recipes by entering your ingredients.
 
-Current Progress:
-- Finished front-end prototypes, working on API calls. - 2017.11.26
-
 # Project3: Walking Character
 Web animation.
 
 ► Preview: https://daphnedeng.github.io/project3/index.html
 
 Summary:
-- A character walks walks walks then turns. First prototype completed.
+- A character walks walks walks then turns. First prototype.
  
 # My other design pojects are available here: https://www.ddcreate.me/
