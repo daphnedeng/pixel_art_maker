@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Xmax Countdown</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+    <script type="text/javascript" src="countdown.js"></script>
+    <script type="text/javascript" src="jQuery.fontFlex.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Varela+Round" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script>
+    $(function() {
+        // H1 only
+        $("h1").fontFlex(20, 50, 30);	
+        //text
+        $(".text").fontFlex(16, 34, 50);
+    });
+    </script>
+</head>
+<body>
+    <div id="snowflakeContainer">
+        <p class="snowflake">*</p>
+    </div>
+    <div id="clock">
+        <h1>We will meet Santa again in</h1>    
+        <div>
+            <span class="days"></span>
+            <div class="text">Days</div>
+        </div>
+        <div>
+            <span class="hours"></span>
+            <div class="text">Hours</div>
+        </div>
+        <div>
+            <span class="mins"></span>
+            <div class="text">Mins</div>
+        </div>
+        <div>
+            <span class="sec"></span>
+            <div class="text">Sec</div>
+        </div>
+    </div>
+    <footer id="footer">Made with ❤ by &copy <a href="https://www.ddcreate.me/">Daphne Deng</a>. 2018 </footer>
+    <script src="fallingsnow_v6.js"></script>
+</body>
+</html>
