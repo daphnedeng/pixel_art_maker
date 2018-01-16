@@ -2,26 +2,21 @@
 
 html {
     font-family: 'Varela Round', 'Inconsolata', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    /* height: 100%;
+    width: 100%; */
+    text-align: center;
     background: #FF5780;
     background: -webkit-gradient(linear, left top, left bottom, from(#FFC3A1), to(#FF5780));
     background: -webkit-linear-gradient(#FFC3A1, #FF5780);
     background: -o-linear-gradient(#FFC3A1, #FF5780);
     background: linear-gradient(#FFC3A1, #FF5780);
     background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-body {
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    /* background: #FF5780;
-    background: -webkit-gradient(linear, left top, left bottom, from(#FFC3A1), to(#FF5780));
-    background: -webkit-linear-gradient(#FFC3A1, #FF5780);
-    background: -o-linear-gradient(#FFC3A1, #FF5780);
-    background: linear-gradient(#FFC3A1, #FF5780);
-    background-repeat: no-repeat;
-    background-attachment: fixed; */
+    background-attachment: fixed; 
     color: #FFFCF4;
     overflow: hidden;
 }
