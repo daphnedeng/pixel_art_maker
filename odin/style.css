@@ -1,0 +1,122 @@
+body {
+    font-family: arial, sans-serif;
+    font-size: small;
+    margin: 0 auto;
+    color: #222;
+}
+
+ul {
+    list-style-type: none;
+    padding-right: 40px;
+    display: flex;   
+}
+
+li {
+    padding: 0px 14px;
+}
+
+.left, .navleft {
+    float: left;
+}
+
+.right, .navright {
+    float: right;
+}
+
+li a {
+    color: #3F3F3F;
+    text-decoration: none;
+}
+
+#nav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.navleft {
+    position: absolute;
+    top: 10px;
+    left: -20px;
+}
+
+.navright {
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+.material-icons {
+    margin-top: -4px;
+}
+
+#signin {
+    background-color: #5486F7;
+    color: #ffffff;
+    width: 75px;
+    line-height: 30px;
+    border: none;
+    border-radius: 3px;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: -7px;
+}
+#search {
+    margin-top: 150px;
+    text-align: center;
+}
+
+#searchBar {
+    position: relative;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    height: 40px;
+    border-radius: 2px;
+    padding-bottom: 2px;
+    margin: 22px auto auto auto; 
+    max-width: 584px;   
+}
+
+input {
+    line-height: 34px;
+    width: 100%;
+    padding: 6px 6px 0px 16px;
+    margin: 0px;
+    font: 15px arial, sans-serif;
+    border: none;
+    height: 34px;
+    -webkit-appearance: textfield;
+    outline: none;
+}
+
+#searchBar img {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.search-button-container {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.search-button {
+    color: #757575;
+    padding: 10px 15px;
+    background-color: #f2f2f2;
+    border: none;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 4px;
+}
+
+#footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
