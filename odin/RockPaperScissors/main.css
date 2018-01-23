@@ -21,7 +21,9 @@ html, body {
 #container {
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
     padding: 1% 0;
 }
 
@@ -52,8 +54,12 @@ img {
 
 #three-buttons {
     width: 37%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     margin: 0 auto;
 }
 
@@ -66,22 +72,34 @@ button {
 
 button:hover {
     cursor: pointer;
-    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2);
 }
 
 
 .main {
     width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin: 0 auto;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 .left, .right {
     width: 40%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 #player, #pc {
