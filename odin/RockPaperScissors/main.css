@@ -1,0 +1,97 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; } 
+body, button, input, select, textarea { font:12px/1.5tahoma, arial, \5b8b\4f53; } 
+h1, h2, h3, h4, h5, h6{ font-size:100%; } 
+address, cite, dfn, em, var { font-style:normal; } 
+code, kbd, pre, samp { font-family:couriernew, courier, monospace; } 
+small{ font-size:12px; } 
+ul, ol { list-style:none; } 
+a { text-decoration:none; } 
+a:hover { text-decoration:underline; } 
+sup { vertical-align:text-top; } 
+sub{ vertical-align:text-bottom; } 
+legend { color:#000; } 
+fieldset, img { border:0; } 
+button, input, select, textarea { font-size:100%; } 
+table { border-collapse:collapse; border-spacing:0; }
+
+html, body {
+    color: rgb(90, 90, 90);
+}
+
+#container {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 1% 0;
+}
+
+section, p {
+    text-align: center;
+}
+
+p {
+    font-size: 1.2vw;
+    line-height: 1.5em;
+    position: relative;
+    top: -20px;;
+}
+
+h1 {
+    font-size: 2.2vw;
+    line-height: 1.5em;
+}
+
+h2 {
+    font-size: 1.8vw;
+    line-height: 1.5em;
+}
+
+img {
+    max-width: 100%;
+}
+
+#three-buttons {
+    width: 37%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 20%;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+
+.main {
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.left, .right {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#player, #pc {
+    width: 70%;
+}
+
+#player-choice, #pc-choice {
+    width: 15%;
+}
+
+#player-choice img, #pc-choice img {
+    display: none;
+}
