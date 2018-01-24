@@ -1,5 +1,10 @@
 # ↓ Scroll Down To View Demos for Different Projects.
 
+# Rock, Paper, Scissors web game!
+Game Design + Front-end Development
+
+► Preview: https://daphnedeng.github.io/odin/RockPaperScissors/index.html
+
 # Project4: Christmas Countdown Timer
 UI Design + Development.
 
