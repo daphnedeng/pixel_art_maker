@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rock, Paper, Scissors</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="jQuery.fontFlex.js"></script>
+    <script>
+        $(function() {
+            // H1 only
+            $("h1").fontFlex(25, 45, 30);	
+            // H2 only
+            $("h2").fontFlex(20, 34, 40);
+            //p
+            $("p").fontFlex(16, 20, 50);
+        });
+    </script>
+</head>
+<body>
+    <div id="container">
+        <section id="headings">
+            <h1>Rock, Paper, Scissors!</h1>
+            <h2 id="mesg">Play against your computer!</h2>
+            <h2>Score</h2>
+            <h2><span id="player-score">0</span> : <span id="pc-score">0</span></h2>
+        </section>
+        <section id="character-imgs">
+            <div class="main">
+                
+                <div class="left">
+                    <div id="player"><img src="img/cat.png"></div>
+                    <div id="player-choice"><img src="img/rock.png"></div>
+                </div> 
+                <div class="right">
+                    <div id="pc-choice"><img src="img/rock.png"></div>
+                    <div id="pc"><img src="img/pc.png"></div>                   
+                </div>     
+            </div>
+        </section>
+        <p>Use the buttons below for your choice. <br>Refresh the page to restart the game!</p>
+        <section id="three-buttons">
+            <button id="paper"><img src="img/paper.png"></button>
+            <button id="scissor"><img src="img/scissor.png"></button>
+            <button id="rock"><img src="img/rock.png"></button>
+        </section>
+    </div>
+</body>
+</html>
